@@ -1,6 +1,19 @@
 # ABCU-Advising
 Program created to use a csv file to generate a course schedule with prerequisites to courses for a university.
 
+---
+
+## Runtime/Memory Analysis
+
+| Data Structure       | Best Case  Runtime Analysis | Worst Case  Runtime Analysis | Memory Analysis Worst Case |
+|----------------------|-----------------------------|------------------------------|----------------------------|
+| File Parser          | ASID - O(n)                 | ASID - O(n)                  | O(n)                       |
+| Course Object Loader | ASID - O(n)                 | ASID - O(n)                  | O(n)                       |
+| Vector               | Access - O(1) SID - O(n)    | Access - O(1) SID - O(n)     | O(n)                       |
+| Hash Table           | ASID - O(1)                 | Access - O(1) SID - O(n)     | O(n)                       |
+| Binary Search Tree   | ASID - O(log n)             | ASID - O(n)                  | O(n)                       |
+
+---
 
 ### What was the problem you were solving in the projects for this course?
 
